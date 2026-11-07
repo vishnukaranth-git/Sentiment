@@ -301,7 +301,7 @@ CREATE TABLE IF NOT EXISTS agent_runs (
                 <span className="text-slate-400 text-[11px]">API Documentation:</span>
                 <div>
                   <a
-                    href="http://127.0.0.1:8000/docs"
+                    href="/docs"
                     target="_blank"
                     rel="noreferrer"
                     className="text-indigo-400 hover:text-indigo-300 underline inline-flex items-center gap-1"
@@ -315,7 +315,7 @@ CREATE TABLE IF NOT EXISTS agent_runs (
                 <span className="text-slate-400 text-[11px]">Health Probe:</span>
                 <div>
                   <a
-                    href="http://127.0.0.1:8000/api/health"
+                    href="/api/health"
                     target="_blank"
                     rel="noreferrer"
                     className="text-indigo-400 hover:text-indigo-300 underline inline-flex items-center gap-1"
